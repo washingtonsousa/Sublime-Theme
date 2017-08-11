@@ -1,0 +1,395 @@
+/*
+Theme Name: WSX Sublime Theme
+Theme URI: http://wsxdevstudio.com.br
+Description: A Genuine brazilian wordpress theme made for those who wants an almost fully customized theme.
+
+Here you can have a big slideshow fully customizable with bootstrap features, a responsive menu and a responsive
+layout made with grid engine
+
+Anyway, you can find the customized css features on header.php file on "head" tag.
+
+Thank you for support us buying this theme.
+
+Author: Washington de Sousa Meneses
+Author URI: http://wsxdevstudio.com.br/
+Version: 1.2
+.
+WSX Theme will be your copyrighted work.
+Like WordPress, this work is released under GNU General Public License, version 2 (GPL).
+http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+a, p, h1, h2, h3, h4, h5, body  {
+
+font-family: 'Roboto', sans-serif;
+
+}
+
+
+html { overflow-x: hidden; }
+
+body { overflow-x: hidden; margin: 0em; padding: 0em; } 
+
+
+/* Some wordpress funcionalities for images corrections */
+
+
+@media screen and (max-width: 320px) {
+#slider {
+display:none;
+}
+
+}
+
+@media screen and (max-width:600px) {
+.aligncenter {
+
+max-width:100%;
+}
+.alignleft{
+max-width:100%;
+float:none;
+margin-right:0px;
+}
+
+.alignright {
+max-width:100%;
+float:none;
+margin-left:0px;
+}
+
+
+}
+
+#wrap-right img {
+max-width:100%;
+height:auto;
+
+}
+.aligncenter {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+max-width:100%;
+}
+.alignleft{
+
+float:left;
+margin-right:10px;
+}
+
+.alignright {
+
+float:right;
+
+}
+.aligncenter {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+@media screen and (min-width: 1366px) {
+.container {
+width:1366px !important;
+
+}
+}
+
+.carousel-caption {
+position:absolute;
+top:20px;
+text-align:left !important;
+}
+
+.carousel-caption h1, .carousel-caption p {
+color:#fff !important;
+}
+
+.carousel-caption h1 {
+font-size:50px !important;
+}
+
+.carousel-caption p {
+
+font-size:22px;
+
+}
+.right {
+
+float:right !important;
+
+}
+
+#nav-below {
+
+text-align:center;
+
+}
+
+#nav-below > a {
+
+clear:both;
+margin-left:10px;
+font-size:18px;
+}
+
+#SocialMenuTop, #SocialMenuTop a {
+
+font-size:50px;
+text-align:center;
+}
+
+.fa-google-plus {
+
+color: #db1608;
+
+}
+
+.fa-google-plus:hover {
+
+color:#fff;
+
+}
+
+
+.fa-facebook-square {
+
+color: #0857d6;
+
+}
+
+.fa-facebook-square:hover {
+
+color:#fff;
+
+}
+
+.fa-linkedin {
+
+color: #02307a;
+
+}
+
+.fa-linkedin:hover {
+
+color:#fff;
+
+}
+
+
+.avatar-212 {
+
+border-radius: 120px;
+
+}
+.header {
+
+border-bottom:1px solid #ccc;
+padding-bottom:20px;
+margin-bottom:10px;
+text-align:center;
+}
+
+.description {
+
+padding-left:20px;
+
+}
+
+.top-item {
+
+margin-top:10px;
+
+}
+
+@media screen and (max-width: 792px) {
+
+.header_top {
+
+text-align:center;
+}
+#SocialMenuTop, #SocialMenuTop a {
+
+font-size:70px;
+text-align:center;
+}
+
+
+
+}
+
+
+
+
+ input[type=submit], .comment-reply-link { background-color: #00cccc; color: #fff; } 
+
+ 
+
+ h1, h2, h3, h4, h5 { color: #666 !important; } ol { padding: 0px; }
+
+  ul, li { list-style-type: none; }
+
+   .avatar-30 { border-radius: 15px; }
+
+    #menuWrap { background-color: #fff; 
+    border-top: 1px solid #f1f1f1; 
+    -webkit-box-shadow: 0px 3px 5px -2px rgba(0,0,0,0.19); 
+    -moz-box-shadow: 0px 3px 5px -2px rgba(0,0,0,0.19); 
+    box-shadow: 0px 3px 5px -2px rgba(0,0,0,0.19); margin-bottom: 10px; }
+
+
+     .box { padding: 10px; background-color: #fff;
+      -webkit-box-shadow: 0px 0px 8px 1px #c7c7c7;
+      -moz-box-shadow: 0px 0px 8px 1px #c7c7c7; 
+      box-shadow: 0px 0px 8px 1px #c7c7c7; }
+      
+      header.header_top { height: auto; }
+      
+      .postsBox { padding: 30px; padding-top: 10px; }
+      
+      .comment_container img { float: left; margin-right: 20px; }
+      .comment-text { background-color: #f1f1f1; padding: 10px; margin-top: 10px; }
+      
+       .comment-list { padding: 0px; margin: 0px; } .comment-row { margin-top: 10px; } 
+
+       .comments-area { margin-top: 10px; }
+       
+       a:hover { text-decoration: none !important; } 
+       
+       #mainMenu li a { font-size: 16px; position: relative; top: 5px; }
+       
+        #mainMenu li a:hover { text-decoration: underline !important; }
+
+         .menu-item-has-children { color: #fff; }
+
+          #secondMenu a { color: #00cccc; } 
+          
+          .menu_listing ul li { display: inline; margin-left: 5px; margin-right: 5px; position: relative; }
+          
+           .menu_listing li { display: inline; margin-left: 5px; margin-right: 5px; }
+           
+            #mainMenu { 
+            
+            padding: 0px; 
+            height: auto; 
+            display: block; 
+            position: relative;
+            margin: 0px !important; 
+            height: 30px; left: 50px; 
+            } 
+            
+            .sub-menu { 
+              display: none; 
+              position: absolute; 
+              z-index: 999; 
+              height: auto; 
+              margin: 15px; 
+              padding: 10px; 
+              background-color: #f1f1f1;
+              top: 10px; left: 0px; 
+              width: 300px;
+              border-width: 2px; 
+              border-style: solid;
+              border-color: #00cccc;
+               border-top: none; } 
+               
+               .single_inner_box { 
+                 
+                 padding: 0px;
+                 margin-left: 10px; }
+                 
+                  .menu-item-has-children { 
+                    
+                    cursor: pointer; 
+                    position: relative; }
+                    
+   .sub-menu li a { 
+                       
+ color: #00cccc !important; } 
+                       
+   .sub-menu li a:hover { color: #666 !important; }
+                       
+  .posts { padding-bottom: 10px; margin-bottom: 5px; border-bottom: 1px solid #ccc; }
+                        
+ #search_submit, .innerLink { cursor: pointer; background-color: #00cccc !important; color: #fff; } 
+ 
+ .form-search-field { border: none !important; }
+ 
+  footer { background-color: #fff; color: #444; border-top: 1px solid #ccc; padding-top: 10px; }
+  
+   footer a { color: #666; }
+   
+    footer a:hover { color: #00cccc; } 
+    
+  h1 > a { color: #666; } 
+    
+  h1 > a:hover { color: #ccc; } 
+    
+  .btn-orange { border: 1px solid #c13501; background-color: #e84104; color: #fff; }
+    
+ .btn-orange:hover { border: 1px solid #e84104; background-color: #c13501; color: #fff !important; }
+     
+ .widget-content ul { padding: 0px; }
+ 
+  .widget-content ul, .widget-content ul > li, .widget-content ul li > a { font-size: 16px; } 
+  
+  #breadcrumb_container ul { margin: 0px !important; }
+  
+  .mainContent { margin-top: 10px; } 
+  
+  #breadcrumb_container { margin-top: 30px; padding-top: 5px; padding-bottom: 5px; margin-bottom: 2px; }
+  
+   .breadcrumb_separator { font-size: 14px; color: #00dddd; }
+
+    #breadcrumb_main li a { font-size: 14px !important; }
+
+     #breadcrumb_main li { display: inline; margin-right: 10px; color: #777; } 
+     
+     #breadcrumb_main li a:hover { color: #666; } 
+
+     #mobile_hamburguer_bar { display: none; }
+
+     .big-icon { font-size: 50px !important; cursor: pointer; color: #00cccc; }
+     
+      #breadcrumb_container { display: block; } 
+      
+      
+      @media screen and (max-width: 700px) { .carousel-caption h1 { font-size: 30px !important; }
+      
+      .carousel-caption p { font-size: 12px; } }
+      
+      
+       @media screen and (max-width: 550px) { 
+         
+         .carousel-caption { position: absolute; top: -30px; text-align: left !important; } }
+         
+         
+          @media screen and (max-width: 792px) { .menu_listing ul li { display: block; }
+          
+           .menu_listing li { display: block; } .sub-menu { position: relative; width: 100%; margin: 0px; }
+           
+            #mainMenu { border-top: 1px solid #00cccc; display: none; height: auto; 
+            
+            position: relative; left: 0px; text-align: center; } 
+            
+            
+            #mobile_hamburguer_bar { display: block; } 
+            
+            #mainMenu li > a, #mainMenu > p, #mainMenu > li { font-size: 36px; } 
+            
+            .menu-item { padding: 10px; } #breadcrumb_container { display: none; } 
+
+
+#mainMenu {
+text-transform:uppercase;
+}
+
+}

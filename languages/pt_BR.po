@@ -1,0 +1,254 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WSX Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-27 15:38+0000\n"
+"PO-Revision-Date: 2017-07-27 15:44+0000\n"
+"Last-Translator: Washington de Sousa <washington.meneses@wsxdevstudio.com.br>"
+"\n"
+"Language-Team: Portuguese (Brazil)\n"
+"Language: pt-BR\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: search.php:15
+msgid " results for: "
+msgstr "resultados para:"
+
+#: search.php:33
+msgid "No results for: "
+msgstr "Nenhum resultado para:"
+
+#: search.php:77
+msgid "No posts found"
+msgstr "Nenhum post encontrado"
+
+#: index.php:47 category.php:31 author.php:77 archive.php:78 404.php:21
+#: single.php:26
+msgid "Nothing found"
+msgstr "Nada encontrado"
+
+#: comments.php:23 parts/content-index.php:40 parts/content-single.php:27
+#, php-format
+msgctxt "comments title"
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "Um comentário"
+msgstr[1] "%1$s Comentários"
+
+#: comments.php:41
+msgid "Comments Navigation"
+msgstr "Navegação de comentários"
+
+#: comments.php:43
+msgid "&larr; Older Comments"
+msgstr "&larr;  Comentários antigos"
+
+#: comments.php:44
+msgid "Newer Comments &rarr;"
+msgstr "Comentários recentes &rarr;"
+
+#: comments.php:51
+msgid "Comments closed"
+msgstr "Comentários desativados"
+
+#: category.php:4
+msgid "Posts from category: "
+msgstr "Posts da categoria:"
+
+#: searchform.php:5
+msgid "Search"
+msgstr "Pesquisar"
+
+#: author.php:34
+msgid "Email:"
+msgstr "Email:"
+
+#: author.php:42
+msgid " posts from this author."
+msgstr "posts deste autor:"
+
+#: archive.php:14
+msgid "Posts from: "
+msgstr "Posts de:"
+
+#: archive.php:17
+msgid "Posts with the tag: "
+msgstr "Posts com a tag:"
+
+#: functions.php:57
+msgid "mainMenu"
+msgstr "Menu principal"
+
+#: functions.php:90
+msgid "WSX Main Side Bar"
+msgstr "Barra lateral do tema"
+
+#: functions.php:92
+msgid "WSX Main Bar"
+msgstr "Barra principal"
+
+#: functions.php:98
+msgid "Footer Bar"
+msgstr ""
+
+#: functions.php:100
+msgid "Footer_Bar"
+msgstr ""
+
+#: functions.php:107 functions.php:109
+msgid "Footer Bar 2"
+msgstr ""
+
+#: functions.php:115 functions.php:117
+msgid "Footer Bar 3"
+msgstr ""
+
+#: inc/special_customizers.php:13
+msgid "Banner Customizing options"
+msgstr ""
+
+#: inc/special_customizers.php:22
+msgid "Social netoworks menu options"
+msgstr ""
+
+#: inc/special_customizers.php:30
+msgid "Color Customizing options"
+msgstr ""
+
+#: inc/special_customizers.php:39
+msgid "Widget Color Customizing options"
+msgstr ""
+
+#: inc/special_customizers.php:172
+msgid "Menu Anchor Color"
+msgstr ""
+
+#: inc/special_customizers.php:185
+msgid "Header Bg Color"
+msgstr ""
+
+#: inc/special_customizers.php:200
+msgid "Anchors color"
+msgstr ""
+
+#: inc/special_customizers.php:216
+msgid "Anchors hover color"
+msgstr ""
+
+#: inc/special_customizers.php:231
+msgid "Breadcrumb link color"
+msgstr ""
+
+#: inc/special_customizers.php:246
+msgid "Footer content color"
+msgstr ""
+
+#: inc/special_customizers.php:261
+msgid "Breadcrumb link hover color"
+msgstr ""
+
+#: inc/special_customizers.php:276
+msgid "Breadcrumb Border Bottom Color"
+msgstr ""
+
+#: inc/special_customizers.php:291
+msgid "Widget Titlecolor"
+msgstr ""
+
+#: parts/content-index.php:35
+msgid " By:  "
+msgstr "Por:"
+
+#: parts/content-index.php:37
+msgid "at: "
+msgstr "em:"
+
+#: parts/content-index.php:53
+msgid "Tags: "
+msgstr "Tags:"
+
+#: parts/content-index.php:66
+msgid "No tags"
+msgstr "Sem tags por aqui"
+
+#: parts/content-index.php:73
+msgid "Read more"
+msgstr "Leia mais"
+
+#: parts/content-single.php:21
+msgid "Published at: "
+msgstr "Publicado em:"
+
+#: parts/content-single.php:23
+msgid " By: "
+msgstr "Por:"
+
+#: parts/content-controls.php:16
+msgid " Newer Posts "
+msgstr "Posts recentes"
+
+#: parts/content-controls.php:18
+msgid " Older Posts "
+msgstr "Posts antigos"
+
+#: inc/views/comments.php:24
+msgid "Your comment is awaiting moderation."
+msgstr "Comentário aguardando moderação"
+
+#: inc/views/comments.php:32
+#, php-format
+msgid " By: %s "
+msgstr "Por: %s "
+
+#: inc/views/slider.php:23
+msgid "Checkout!"
+msgstr "Confira!"
+
+#: inc/views/breadcrumb.php:12 inc/views/breadcrumb.php:82
+msgid "Home"
+msgstr "Home"
+
+#: inc/views/breadcrumb.php:29
+msgid "Archive from: "
+msgstr "Arquivos de:"
+
+#: inc/views/breadcrumb.php:71 inc/views/breadcrumb.php:72
+#: inc/views/breadcrumb.php:73
+msgid "Archive from"
+msgstr "Arquivos de"
+
+#: inc/views/breadcrumb.php:74
+msgid "Archive from blog: "
+msgstr "Arquivos do blog:"
+
+#: inc/views/breadcrumb.php:75
+msgid "Search results"
+msgstr "Resultados de pesquisa"
+
+#. Name of the theme
+msgid "WSX Theme"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Um tema genuinamente brasileiro desenvolvido para wordpress carregado de "
+"inumeros recursos, no entanto este tema é obtido por meio de pagamento, mas "
+"é um preço justo pode apostar e vale muito a pena, o tema funciona muito bem,"
+" é responsivo e te permite customizar praticamente quase tudo. Não é legal?"
+msgstr ""
+
+#. URI of the theme
+msgid "http://wsxdevstudio.com.br"
+msgstr ""
+
+#. Author of the theme
+msgid "Washington de Sousa Meneses"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://techtipsw.com/"
+msgstr ""
